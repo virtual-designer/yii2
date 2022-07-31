@@ -207,7 +207,7 @@ class FontAwesomeAsset extends AssetBundle
 
 ### Bower 和 NPM 资源安装 <span id="bower-npm-assets"></span>
 
-大多数 JavaScript/CSS 包使用 [Bower](http://bower.io/) 或 [NPM](https://www.npmjs.com/) 来管理。
+大多数 JavaScript/CSS 包使用 [Bower](https://bower.io/) 或 [NPM](https://www.npmjs.com/) 来管理。
 在 PHP 中，我们用 Composer 来管理 PHP 依赖。像 PHP 包一样，
 也可以使用 `composer.json` 管理 Bower 和 NPM 包。
 
@@ -577,8 +577,8 @@ Yii框架定义许多资源包，如下资源包是最常用，
 ## 资源转换 <span id="asset-conversion"></span>
 
 除了直接编写 CSS 或 JavaScript 代码，开发人员经常使用扩展语法来编写，再使用特殊的工具将它们转换成 CSS/JavaScript。
-例如，对于 CSS 代码可使用 [LESS](http://lesscss.org/) 或 [SCSS](http://sass-lang.com/)，
-对于 JavaScript 可使用 [TypeScript](http://www.typescriptlang.org/)。
+例如，对于 CSS 代码可使用 [LESS](https://lesscss.org/) 或 [SCSS](https://sass-lang.com/)，
+对于 JavaScript 可使用 [TypeScript](https://www.typescriptlang.org/)。
 
 可将使用扩展语法的资源文件列到资源包的 [[yii\web\AssetBundle::css|css]] 和 [[yii\web\AssetBundle::js|js]] 中，如下所示：
 
